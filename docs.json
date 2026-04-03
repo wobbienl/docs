@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "RCUR API docs",
+  "colors": {
+    "primary": "#8ead68",
+    "light": "#b3c998",
+    "dark": "#7a9c51"
+  },
+  "favicon": "/images/rcur-square.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "authentication",
+              "rate-limits"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "openapi": "openAPI.json"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/logo.svg",
+    "dark": "/images/logo-white.svg",
+    "href": "https://rcur.eu"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://support.rcur.app"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://rcur.app/app"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "api": {
+    "openapi": "/openAPI.json"
+  },
+  "appearance": {
+    "default": "system"
+  }
+}
