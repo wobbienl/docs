@@ -403,9 +403,14 @@
                         "content": {
                             "application\/json": {
                                 "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#\/components\/schemas\/Mandate"
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#\/components\/schemas\/Mandate"
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -1039,9 +1044,14 @@
                         "content": {
                             "application\/json": {
                                 "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#\/components\/schemas\/Payment"
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#\/components\/schemas\/Payment"
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -1885,9 +1895,14 @@
                         "content": {
                             "application\/json": {
                                 "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#\/components\/schemas\/MollieProfile"
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#\/components\/schemas\/MollieProfile"
+                                            }
+                                        }
                                     }
                                 }
                             }
